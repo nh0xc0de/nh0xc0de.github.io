@@ -1,0 +1,36 @@
+body {
+  background-color: #F5F5F5;
+  color: #555;
+  font-size: 18px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* container*/
+.container{
+	width:720px;
+	margin:auto auto;
+	height:auto;
+}
+/*Menu*/
+
+.menu li{
+	display:inline-block;
+	position:relative;
+}
+li{
+	border:1px solid grey;
+	padding:7px 7px;
+	background:#A4363B;
+}
+.menu li:hover{
+	background:#9894B2;
+	transition:all 1.0s;
+	cursor: pointer;
+}
+li ul{
+	position:absolute;
+	display:none;
+}
+li ul:hover{
+	display:show;
+}
