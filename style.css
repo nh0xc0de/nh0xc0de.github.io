@@ -20,17 +20,23 @@ body {
 li{
 	border:1px solid grey;
 	padding:7px 7px;
-	background:#A4363B;
+	background:#EE3F4E;
 }
 .menu li:hover{
-	background:#9894B2;
-	transition:all 1.0s;
+	background:#0BF071;
+	transition:all 0.5s;
 	cursor: pointer;
 }
 li ul{
 	position:absolute;
 	display:none;
 }
-li ul:hover{
-	display:show;
+li:hover ul{
+	display:block;
+	top:105%;
+	left:-70%;
+}
+li ul li{
+	width:150px;
+
 }
