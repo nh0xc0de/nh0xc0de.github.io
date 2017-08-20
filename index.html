@@ -1,148 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
-	<link rel="stylesheet" href="style.css">
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
-<body id="page">
-	<div class="container">
-		<header>
-			<h1><span>WANTED!!</span><img src="icon/wanted.png" alt=""></h1>
-		</header><!-- /header -->
-		<section>
-			<ul class="album">
-				<li>
-					<a href="#image-1" title="">
-						<img src="thumbs/nghi.jpg" alt="">
-						<span>NGHI</span>
-					</a>
-					<div class="overlay" id="image-1">
-						<img src="full/nghi.jpg" alt="">
-						<div>
-							<span>NGHI</span>
-							<p></p>
-							<a class="close" href="#page" title="">X Close</a>
-							<a href="#image-8" title="" class="prev"></a>
-							<a href="#image-2" title="" class="next"></a>
-						</div>
-					</div>
-				</li>
-				<li>
-					<a href="#image-2" title="">
-						<img src="thumbs/chi-linh.jpg" alt="">
-						<span>CHỊ LINH</span>
-					</a>
-					<div class="overlay" id="image-2">
-						<img src="full/chi-linh.jpg" alt="">
-						<div>
-							<span>CHỊ LINH</span>
-							<p></p>
-							<a class="close" href="#page" title="">X Close</a>
-							<a href="#image-1" title="" class="prev"></a>
-							<a href="#image-3" title="" class="next"></a>
-						</div>
-					</div>
-				</li>
-				<li>
-					<a href="#image-3" title="">
-						<img src="thumbs/hai.jpg" alt="">
-						<span>HẢI</span>
-					</a>
-					<div class="overlay" id="image-3">
-						<img src="full/hai.jpg" alt="">
-						<div>
-							<span>HẢI</span>
-							<p>Thích màu tím, hay khóc thầm, ước mơ làm phi công.</p>
-							<a class="close" href="#page" title="">X Close</a>
-							<a href="#image-2" title="" class="prev"></a>
-							<a href="#image-4" title="" class="next"></a>
-						</div>
-					</div>
-				</li>
-				<li>
-					<a href="#image-4" title="">
-						<img src="thumbs/chi-tram.jpg" alt="">
-						<span>CHỊ TRÂM</span>
-					</a>
-					<div class="overlay" id="image-4">
-						<img src="full/chi-tram.jpg" alt="">
-						<div>
-							<span>CHỊ TRÂM</span>
-							<p>Dance performed on the tips of the toes. </p>
-							<a class="close" href="#page" title="">X Close</a>
-							<a href="#image-3" title="" class="prev"></a>
-							<a href="#image-5" title="" class="next"></a>
-						</div>
-					</div>
-				</li>
-				<li>
-					<a href="#image-5" title="">
-						<img src="thumbs/nha.jpg" alt="">
-						<span>NHÃ</span>
-					</a>
-					<div class="overlay" id="image-5">
-						<img src="full/nha.jpg" alt="">
-						<div>
-							<span>NHÃ</span>
-							<p>Dance performed on the tips of the toes. </p>
-							<a class="close" href="#page" title="">X Close</a>
-							<a href="#image-4" title="" class="prev"></a>
-							<a href="#image-6" title="" class="next"></a>
-						</div>
-					</div>
-				</li>
-				<li>
-					<a href="#image-6" title="">
-						<img src="thumbs/hang.jpg" alt="">
-						<span>HẰNG</span>
-					</a>
-					<div class="overlay" id="image-6">
-						<img src="full/hang.jpg" alt="">
-						<div>
-							<span>HẰNG</span>
-							<p>Dance performed on the tips of the toes. </p>
-							<a class="close" href="#page" title="">X Close</a>
-							<a href="#image-5" title="" class="prev"></a>
-							<a href="#image-7" title="" class="next"></a>
-						</div>
-					</div>
-				</li>
-				<li>
-					<a href="#image-7" title="">
-						<img src="thumbs/duong.jpg" alt="">
-						<span>DƯƠNG</span>
-					</a>
-					<div class="overlay" id="image-7">
-						<img src="full/duong.jpg" alt="">
-						<div>
-							<span>DƯƠNG</span>
-							<p>Dance performed on the tips of the toes. </p>
-							<a class="close" href="#page" title="">X Close</a>
-							<a href="#image-6" title="" class="prev"></a>
-							<a href="#image-8" title="" class="next"></a>
-						</div>
-					</div>
-				</li>
-				<li>
-					<a href="#image-8" title="">
-						<img src="thumbs/0.jpg" alt="">
-						<span>POINTE</span>
-					</a>
-					<div class="overlay" id="image-8">
-						<img src="full/0.jpg" alt="">
-						<div>
-							<span>Pointe</span>
-							<p>Dance performed on the tips of the toes. </p>
-							<a class="close" href="#page" title="">X Close</a>
-							<a href="#image-7" title="" class="prev"></a>
-							<a href="#image-1" title="" class="next"></a>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</section>
-	</div>
+
+<body>
+    <div class="container">
+        <div class="left-element">
+            <div class="profile">
+                <div class="photo"><img src="image/tan.jpg" alt=""></div>
+                <div class="name">
+                    <h3 class="">Vũ Minh Tân</h3>
+                    <h4>Chém gió dạo</h4>
+                </div>
+            </div>
+            <div class="about">
+                <h3>About</h3>
+                <p>"Hồi còn trẻ tôi luôn nghĩ kiếm được thật nhiều tiền mới là thành công. Nhưng sau này tôi mới biết tiền chỉ là một dạng giá trị, điều quan trọng là bạn tạo và cống hiến bao nhiêu giá trị cho xã hội này. Sống là cho đâu chỉ nhận riêng mình"</p>
+            </div>
+            <div class="contact">
+                <h3>Contact</h3>
+                <div><i class="fa fa-phone"></i><span>0976464124</span></div>
+                <div><i class="fa fa-envelope "></i><span>minhtan110997@gmail .com</span></div>
+                <div><i class="fa fa-home "></i><span><a href="http://lacgiuadongdoi.wordpress.com/">lacgiuadongdoi.wordpress
+                .com</a></span></div>
+                <div><i class="fa fa-location-arrow"></i><span>Biên Hòa-Đồng Nai-Việt Nam</span></div>
+            </div>
+        </div>
+        <div class="right-element">
+            <div class="work-education">
+                <h3><img src="image/education.png" alt="" width="25px" height="25px">Nơi đã học và làm việc</h3>
+                <div class="edu">
+                    <ul>
+                        <li><span>THPT chuyên Lương Thế Vinh</span> <small>2012-2015</small></li>
+                        <li><span>Trường ĐH Kinh tế TPHCM</span> <small>2015-2019</small></li>
+                    </ul>
+                </div>
+                <div class="work">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="soft-skills">
+                <h3><img src="image/soft-skills.png" height="25px" width="25px" alt="">Sờ Kiu</h3>
+                <ul>
+                    <li>
+                        <span>Chém gió</span>
+                        <div class="ratings-bar">
+                            <div class="ratings five"></div>
+                        </div>
+                    </li>
+                    <li><span>Nấu ăn</span>
+                        <div class="ratings-bar">
+                            <div class="ratings three"></div>
+                        </div>
+                    </li>
+                    <li><span>Tán gái</span>
+                        <div class="ratings-bar">
+                            <div class="ratings onehalf"></div>
+                        </div>
+                    </li>
+                    <li><span>Tâm lý</span>
+                        <div class="ratings-bar">
+                            <div class="ratings four"></div>
+                        </div>
+                    </li>
+                    <li><span>Đẹp trai</span>
+                        <div class="ratings-bar">
+                            <div class="ratings half"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="interests">
+                <h3><img src="image/interests-items.png" height="25px" width="25px" alt="">Sở thích</h3>
+                <div class="interests-items">
+                    <div><img src="image/reading.png" alt=""><span>Đọc sách</span></div>
+                    <div><img src="image/writting.png" alt=""><span>Viết Blog</span></div>
+                    <div><img src="image/cooking.png" alt=""><span>Nấu ăn</span></div>
+                    <div><img src="image/coding.png" alt=""><span>Coding</span></div>
+                    <div><img src="image/discovering.png" alt=""><span>Khám phá</span></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
